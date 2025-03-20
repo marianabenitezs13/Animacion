@@ -1,0 +1,25 @@
+.personaje{
+    height: 10px;
+    margin: 0%;
+    animation: correr 3s ease-in-out infinite;
+    left: 1%;
+    bottom: 15px;
+    position: absolute;
+}
+@keyframes correr{
+    0%{
+        margin-left: 0;
+    }
+
+    50% {
+        margin-left: 250px;
+    }
+
+    100%{
+        margin-left: 1500px;
+    }
+}
+.fondo{
+    height: 360px;
+    position: relative;
+}
